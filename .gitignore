@@ -192,3 +192,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Ignore python cache & compiled
+__pycache__/
+*.py[cod]
+# Jupyter checkpoints
+.ipynb_checkpoints/
